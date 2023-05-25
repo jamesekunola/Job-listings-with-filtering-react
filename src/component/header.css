@@ -1,0 +1,13 @@
+.header__container {
+  height: 13rem;
+  background: var(--Dark-Cyan) url("../Asset/bg-header-mobile.svg") no-repeat
+    right center / 100% 100%;
+  transition: background 0.3s;
+}
+
+@media screen and (min-width: 62.5rem) {
+  .header__container {
+    background: var(--Dark-Cyan) url("../Asset/bg-header-desktop.svg") no-repeat
+      right center / 100% 100%;
+  }
+}

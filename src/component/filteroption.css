@@ -1,0 +1,29 @@
+.FilterOptions__container {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  width: fit-content;
+  background-color: #eef8f6;
+}
+
+.FilterOptions__container > p {
+  margin: 0;
+  padding: 0.4rem;
+  color: var(--Dark-Cyan);
+  font-weight: bold;
+}
+
+.filterOptions__btn {
+  margin: 0;
+  padding: 8px;
+  background-color: #5da697;
+  line-height: 8px;
+  border-radius: 0 5px 5px 0;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.filterOptions__btn:hover {
+  background-color: #373f3e;
+}

@@ -1,0 +1,123 @@
+.jobs__container {
+  background-color: var(--clr-white);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  margin-top: 5rem;
+  position: relative;
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.2);
+}
+
+.jobs__desc {
+  border-bottom: 1px solid var(--Filter-box);
+  margin-bottom: 1.5rem;
+}
+
+.jobs__desc img {
+  width: 4rem;
+  height: 4rem;
+  object-fit: contain;
+  position: absolute;
+  top: -2rem;
+}
+
+.jobs__details {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.jobs__details p {
+  margin: 0;
+  color: var(--Dark-Cyan);
+  font-weight: bold;
+}
+
+.jobs__details span {
+  display: block;
+  text-transform: uppercase;
+  padding: 0.7rem;
+  color: var(--clr-white);
+  background-color: var(--Dark-Cyan);
+  font-weight: bold;
+  border-radius: 2rem;
+  line-height: 0.5rem;
+}
+
+.jobs__details span:last-child {
+  background-color: var(--Very-Dark-Grayish);
+}
+
+.jobs__position {
+  font-weight: bold;
+  color: var(--Very-Dark-Grayish);
+  transition: 0.3s;
+}
+
+.jobs__position:hover {
+  color: var(--Dark-Cyan);
+}
+
+.jobs__location {
+  display: flex;
+  color: var(--Dark-Grayish);
+  align-items: center;
+  font-weight: 600;
+}
+
+.jobs__location span {
+  display: inline-block;
+  width: 0.2rem;
+  height: 0.2rem;
+  border-radius: 100%;
+  margin-inline: 0.5rem;
+  background-color: var(--Dark-Grayish);
+}
+
+.jobs__btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.jobs__btns-btn {
+  background-color: #eef8f6;
+  padding: 0.6rem;
+  outline: none;
+  border: none;
+  color: var(--Dark-Cyan);
+  font-weight: bold;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.jobs__btns-btn:hover {
+  background-color: var(--Dark-Cyan);
+  color: var(--clr-white);
+}
+
+@media screen and (min-width: 62.5rem) {
+  .jobs__container {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding: 1rem 2rem;
+  }
+
+  .jobs__desc {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+
+  .jobs__desc img {
+    position: static;
+    width: auto;
+    height: auto;
+  }
+}
